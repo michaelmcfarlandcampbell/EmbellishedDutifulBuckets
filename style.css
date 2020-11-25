@@ -1,3 +1,14 @@
-h1, h2{
+h1, h2 a{
   font-family: Myriad Pro;
+}
+p {
+  font-family: fantasy;
+}
+img {
+  border-radius: 10px;
+}
+nav {
+  background-color: aquamarine;
+  font-family: Myriad Pro;
+  padding: 5px; 
 }

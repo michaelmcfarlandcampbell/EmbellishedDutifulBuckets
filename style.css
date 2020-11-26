@@ -1,6 +1,6 @@
 body {
-  margin: 5%;
   background-color: antiquewhite;
+  font-family: Myriad Pro;
 }
 h1, h2{
   font-family: Myriad Pro;
@@ -13,12 +13,26 @@ p {
 img {
   border-radius: 10px;
 }
-nav {
-  background-color: purple;
-  font-family: Myriad Pro;
-  padding: 5px; 
-  color: cornsilk;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
-a {
-  color: antiquewhite;
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: purple;
+}
+
+.topnav a.active {
+  background-color: purple;
+  color: white;
 }

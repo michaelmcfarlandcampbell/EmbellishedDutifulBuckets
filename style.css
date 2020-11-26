@@ -1,5 +1,11 @@
-h1, h2 a{
+body {
+  margin: 5%;
+  background-color: antiquewhite;
+}
+h1, h2{
   font-family: Myriad Pro;
+  color: purple;
+  
 }
 p {
   font-family: fantasy;
@@ -8,7 +14,11 @@ img {
   border-radius: 10px;
 }
 nav {
-  background-color: aquamarine;
+  background-color: purple;
   font-family: Myriad Pro;
   padding: 5px; 
+  color: cornsilk;
+}
+a {
+  color: antiquewhite;
 }

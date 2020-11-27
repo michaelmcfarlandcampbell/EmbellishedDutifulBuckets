@@ -3,12 +3,11 @@ body {
   font-family: Myriad Pro;
 }
 h1, h2{
-  font-family: Myriad Pro;
   color: purple;
-  
+  padding: 5px;
+  text-align: center;
 }
-p {
-  font-family: fantasy;
+
 }
 img {
   border-radius: 10px;
@@ -35,4 +34,14 @@ img {
 .topnav a.active {
   background-color: purple;
   color: white;
+}
+.code {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 2px;
+}
+.github {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 2px; 
 }

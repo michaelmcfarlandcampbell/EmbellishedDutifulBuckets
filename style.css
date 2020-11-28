@@ -1,8 +1,10 @@
 body {
   background-color: antiquewhite;
-  font-family: mr-eaves-modern, sans-serif;
+  font-family: warnock-pro, serif;
   font-weight: 400;
   font-style: normal;;
+  font-variant-numeric: oldstyle-nums;
+  font-variant-ligatures: discretionary-ligatures;
 }
 h1, h2{
   color: purple;
@@ -10,10 +12,23 @@ h1, h2{
   text-align: center;
 }
 
+p {
+  width: 60%;
+  margin: 15px auto 0px auto; 
 }
-img {
+
+ul {
+  width: 60%;
+  margin: 15px auto 0px auto; 
+}
+}
+
+
+.img-right {
+  float: right;
   border-radius: 10px;
 }
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -26,6 +41,7 @@ img {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
 }
 
 .topnav a:hover {
@@ -37,13 +53,33 @@ img {
   background-color: purple;
   color: white;
 }
-.code {
+.left {
   background-color: aliceblue;
   border-radius: 10px;
   padding: 2px;
+  float: left; 
+  width: 48%;
+
 }
-.github {
+.right {
   background-color: aliceblue;
   border-radius: 10px;
   padding: 2px; 
+  float: right;
+  width: 48%;
+}
+
+.btm-bar {
+  background-color: purple;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.btm-bar img{
+  float: left;
+  margin: 0px 15px 0px 15px;
 }

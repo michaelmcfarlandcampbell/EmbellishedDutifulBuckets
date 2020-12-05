@@ -83,3 +83,10 @@ ul {
   float: left;
   margin: 0px 15px 0px 15px;
 }
+header {
+  background-color: purple;
+  color: silver; 
+}
+header > h1 {
+  color: antiquewhite; 
+}

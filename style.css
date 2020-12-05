@@ -21,7 +21,19 @@ ul {
   width: 60%;
   margin: 15px auto 0px auto; 
 }
+a {
+  padding: 1px; 
 }
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  background-color: aqua;
+  color: peru;
+}
+
+
 
 
 .img-right {

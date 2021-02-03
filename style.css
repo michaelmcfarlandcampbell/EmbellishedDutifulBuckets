@@ -103,3 +103,8 @@ header {
 header > h1 {
   color: antiquewhite; 
 }
+
+.main-menu {
+    width: 25%;
+    color: white; 
+}
